@@ -1,0 +1,17 @@
+.container__menu-title{
+  color: #fff;
+}
+
+.container__menu-title > h1 {
+  margin: 3rem 0;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container__menu-title > hr {
+  margin: 1rem 0;
+
+}
+
