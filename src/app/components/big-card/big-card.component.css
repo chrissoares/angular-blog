@@ -1,0 +1,37 @@
+.container__big-card{
+  border: solid white 2px;
+  width: 45rem;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 ;
+}
+
+.big-card__photo > img{
+  height: auto;
+  width: 100%;
+}
+
+.big-card__title{
+  margin: .5rem 0;
+}
+
+.big-card__title > h1 {
+  font-size: 2rem;
+}
+
+.big-card__description > a > p{
+  color: rgba(255,255,255,0.5);
+  font-size: 1rem;
+}
+
+.big-card__date {
+  margin-top: 1rem;
+}
+
+.big-card__date > p {
+  color: rgba(255,255,255,0.5);
+  font-size: .90rem;
+}

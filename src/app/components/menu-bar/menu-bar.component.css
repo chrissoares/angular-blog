@@ -1,0 +1,14 @@
+.container___menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.container___menu-bar > ul > li{
+  list-style: none;
+  padding: 0 10px;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.container___menu-bar > ul > :last-child{
+  border-right: 0px;
+}

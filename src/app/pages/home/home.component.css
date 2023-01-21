@@ -1,0 +1,19 @@
+.container__articles{
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.articles__others{
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header{
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
