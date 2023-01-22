@@ -41,7 +41,7 @@ export class ContentComponent implements OnInit {
   }
 
   formatedDate(date: Date): string{
-    return `${date.getDay()} de ${months[date.getMonth()].name} de ${date.getFullYear()}`;
+    return `${date.getDate()} de ${months[date.getMonth()].name} de ${date.getFullYear()}`;
   }
 
 }

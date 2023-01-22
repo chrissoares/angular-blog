@@ -2,32 +2,20 @@
 <div class="container__articles">
   <div class="articles__main">
     <app-big-card
-      [id] = 1
-      [photoCover] = "'https://procoders.tech/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/05/c7e3018d2b2feeba769b9af45e744e56-1-1.jpeg.webp'"
-      [cardTitle] = "'Entenda o real motivo do por que devemos aprender Angular e não AngulaJS'"
-      [cardDescription] = "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et dolor vel magna molestie tempus. Donec feugiat ante vel rutrum vestibulum. Aliquam lectus est, pulvinar ut laoreet condimentum'"
-      [cardStringDate] = "'21 de Janeiro de 2023'"
+      [id] = "list[0].id"
+      [photoCover] = "list[0].photo"
+      [cardTitle] = "list[0].title"
+      [cardDescription] = "list[0].description"
+      [cardStringDate] = "list[0].formattedDate"
     ></app-big-card>
   </div>
   <div class="articles__others">
     <app-small-card
-      [id] = 2
-      [photoCover] = "'https://blog.accurate.com.br/wp-content/uploads/2021/07/Dev-Full-Stack-1280x720.png'"
-      [cardTitle] = "'Especialistas confirmam: Desenvolvimento em Angula é divertido!'"
-      [cardStringDate]="'18 de Janeiro de 2023'"
-
-    ></app-small-card>
-    <app-small-card
-      [id] = 3
-      [photoCover]="'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6_QV6aSzdKAYTRFRKTamGZpvKDrKDVoXDw&usqp=CAU'"
-      [cardTitle]="'Carreira de Desenvolvedor esta como uma das mais promissoras da atualidade'"
-      [cardStringDate]="'15 de Janeiro de 2023'"
-    ></app-small-card>
-    <app-small-card
-      [id] = 4
-      [photoCover]="'https://res.cloudinary.com/practicaldev/image/fetch/s--jcqALx8Y--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2z02r9fyhvo88zlf42hj.png'"
-      [cardTitle]="'Comece o ano com um Setup otimizado! Isto  ajudará na produtividade, concentração e a diminuir níveis de stress.'"
-      [cardStringDate]="'03 de Janeiro de 2023'"
+      *ngFor="let article of list | slice:1:4"
+      [id] = "article.id"
+      [photoCover] = "article.photo"
+      [cardTitle] = "article.title"
+      [cardStringDate]="article.formattedDate"
     ></app-small-card>
   </div>
 </div>

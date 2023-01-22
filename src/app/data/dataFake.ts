@@ -4,7 +4,8 @@ export const dataFake = [
     "photo": "https://procoders.tech/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/05/c7e3018d2b2feeba769b9af45e744e56-1-1.jpeg.webp",
     "title": "Entenda o real motivo do por que devemos aprender Angular e não AngulaJS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et dolor vel magna molestie tempus. Donec feugiat ante vel rutrum vestibulum. Aliquam lectus est, pulvinar ut laoreet condimentum",
-    "date": new Date('2023/01/21 15:37 -0300')
+    "date": new Date('2023/01/21 15:37 -0300'),
+    "formattedDate": "",
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@ export const dataFake = [
       <p>
       Curabitur tincidunt erat id tortor congue hendrerit. Maecenas a risus in dolor varius interdum. Suspendisse id mauris eu quam ullamcorper maximus. Praesent urna neque, rutrum eget efficitur non, convallis vitae diam. Pellentesque laoreet quis diam in pharetra. Praesent nec nisi iaculis, scelerisque mi vitae, viverra erat. Pellentesque pharetra, sem sed eleifend porttitor, urna risus congue ante, id sollicitudin velit risus quis erat. In pellentesque, mauris et ornare ullamcorper, nibh sapien pulvinar sem, ac blandit augue felis vitae orci. Nam ornare euismod mattis.
       </p>`,
-    "date": new Date('2023/01/18 23:37 -0300')
+    "date": new Date('2023/01/18 23:37 -0300'),
+    "formattedDate": "",
   },
   {
     "id": 3,
@@ -34,7 +36,8 @@ export const dataFake = [
       <p>
       Curabitur tincidunt erat id tortor congue hendrerit. Maecenas a risus in dolor varius interdum. Suspendisse id mauris eu quam ullamcorper maximus. Praesent urna neque, rutrum eget efficitur non, convallis vitae diam. Pellentesque laoreet quis diam in pharetra. Praesent nec nisi iaculis, scelerisque mi vitae, viverra erat. Pellentesque pharetra, sem sed eleifend porttitor, urna risus congue ante, id sollicitudin velit risus quis erat. In pellentesque, mauris et ornare ullamcorper, nibh sapien pulvinar sem, ac blandit augue felis vitae orci. Nam ornare euismod mattis.
       </p>`,
-    "date": new Date('2023/01/15 14:07 -0300')
+    "date": new Date('2023/01/15 14:07 -0300'),
+    "formattedDate": "",
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@ export const dataFake = [
       <p>
       Curabitur tincidunt erat id tortor congue hendrerit. Maecenas a risus in dolor varius interdum. Suspendisse id mauris eu quam ullamcorper maximus. Praesent urna neque, rutrum eget efficitur non, convallis vitae diam. Pellentesque laoreet quis diam in pharetra. Praesent nec nisi iaculis, scelerisque mi vitae, viverra erat. Pellentesque pharetra, sem sed eleifend porttitor, urna risus congue ante, id sollicitudin velit risus quis erat. In pellentesque, mauris et ornare ullamcorper, nibh sapien pulvinar sem, ac blandit augue felis vitae orci. Nam ornare euismod mattis.
       </p>`,
-    "date": new Date('2023/01/03 10:22 -0300')
+    "date": new Date('2023/01/03 10:22 -0300'),
+    "formattedDate": "",
   },
   {
     "id": 5,
@@ -64,7 +68,8 @@ export const dataFake = [
       <p>
       Curabitur tincidunt erat id tortor congue hendrerit. Maecenas a risus in dolor varius interdum. Suspendisse id mauris eu quam ullamcorper maximus. Praesent urna neque, rutrum eget efficitur non, convallis vitae diam. Pellentesque laoreet quis diam in pharetra. Praesent nec nisi iaculis, scelerisque mi vitae, viverra erat. Pellentesque pharetra, sem sed eleifend porttitor, urna risus congue ante, id sollicitudin velit risus quis erat. In pellentesque, mauris et ornare ullamcorper, nibh sapien pulvinar sem, ac blandit augue felis vitae orci. Nam ornare euismod mattis.
       </p>`,
-    "date": new Date('2023/01/02 15:37 -0300')
+    "date": new Date('2023/01/02 15:37 -0300'),
+    "formattedDate": "",
   },
   {
     "id": 6,
@@ -79,6 +84,7 @@ export const dataFake = [
       <p>
       Curabitur tincidunt erat id tortor congue hendrerit. Maecenas a risus in dolor varius interdum. Suspendisse id mauris eu quam ullamcorper maximus. Praesent urna neque, rutrum eget efficitur non, convallis vitae diam. Pellentesque laoreet quis diam in pharetra. Praesent nec nisi iaculis, scelerisque mi vitae, viverra erat. Pellentesque pharetra, sem sed eleifend porttitor, urna risus congue ante, id sollicitudin velit risus quis erat. In pellentesque, mauris et ornare ullamcorper, nibh sapien pulvinar sem, ac blandit augue felis vitae orci. Nam ornare euismod mattis.
       </p>`,
-    "date": new Date('2023/01/02 15:37 -0300')
+    "date": new Date('2023/01/02 15:37 -0300'),
+    "formattedDate": "",
   },
 ]
