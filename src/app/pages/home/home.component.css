@@ -11,9 +11,3 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
-header{
-  margin: 3rem 0;
-  display: flex;
-  justify-content: center;
-}

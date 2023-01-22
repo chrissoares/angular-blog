@@ -1,0 +1,45 @@
+.container__content{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: stretch; */
+
+  margin: 3rem;
+
+  border: 1px solid white;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.content__cover{
+  border: 1px solid blue;
+}
+.content__cover > img{
+  width: 100%;
+  height: auto;
+}
+
+.content__title{
+  margin: 1rem 0;
+  border: 1px solid green;
+  width: 100%;
+}
+
+.content__description{
+  border: 1px solid fuchsia;
+  /* margin: 1rem; */
+}
+
+.content__description > p{
+  margin: 1rem 0;
+  color: rgba(255,255,255,0.5);
+}
+
+.content__date{
+  /* margin: 0 1rem; */
+  width: 100%;
+}
+
+.content__date > p{
+  color: rgba(255,255,255,0.5);
+}

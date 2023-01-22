@@ -1,5 +1,4 @@
 .container__big-card{
-  border: solid white 2px;
   width: 45rem;
   height: auto;
 
@@ -29,6 +28,7 @@
 
 .big-card__date {
   margin-top: 1rem;
+  width: 100%;
 }
 
 .big-card__date > p {

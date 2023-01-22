@@ -25,3 +25,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.small-card__title > h1 {
+  font-size: 1.2rem;
+}
+
+.small-card__date > p {
+  color: rgba(255,255,255,0.5);
+  font-size: .90rem;
+}

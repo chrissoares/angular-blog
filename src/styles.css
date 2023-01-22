@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   background-color: #121212;
@@ -10,4 +10,8 @@
 
 a {
   text-decoration: none;
+}
+
+body{
+  width: 80%;
 }
